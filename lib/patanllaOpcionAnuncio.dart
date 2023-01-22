@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
+
 
 
 class patallaAnuncio extends StatefulWidget {
   patallaAnuncio({Key? key, required String title}) : super(key: key);
+
+ 
+
 
   @override
   State<patallaAnuncio> createState() => _patallaAnuncioState();
